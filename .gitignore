@@ -1,6 +1,8 @@
-/.gradle/
 /.idea/
-/build/
-/gradle/
-/m1l1-quickstart/build/
+
+gradle/
+.gradle
+**/build/
+!src/**/build/
+
 *.bat
