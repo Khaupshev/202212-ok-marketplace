@@ -3,3 +3,4 @@
 /build/
 /gradle/
 /m1l1-quickstart/build/
+*.bat
