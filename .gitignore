@@ -6,3 +6,4 @@ gradle/
 !src/**/build/
 
 *.bat
+*.DS_Store
