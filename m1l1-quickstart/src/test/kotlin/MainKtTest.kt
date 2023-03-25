@@ -4,7 +4,7 @@ import kotlin.test.assertEquals
 class MainKtTest {
 
     @Test
-    fun f() {
+    fun test() {
         assertEquals(3, 2+1)
     }
 
