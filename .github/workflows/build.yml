@@ -28,14 +28,13 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     runs-on: ubuntu-22.04
-#    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Set up JDK 17
+      - name: Set up JDK 11
         uses: actions/setup-java@v3
         with:
-          java-version: '17'
+          java-version: '11'
           distribution: 'temurin'
 
       - name: Validate Gradle wrapper
@@ -48,4 +47,3 @@ jobs:
         uses: gradle/gradle-build-action@v2
         with:
           arguments: check
-
