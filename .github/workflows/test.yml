@@ -33,6 +33,8 @@ jobs:
 
       - name: Test package
         run: gradle check
+        with:
+          gradle-version: 7.1
 
 #      - name: Report unit tests
 #        uses: dorny/test-reporter@v1
