@@ -47,5 +47,5 @@ jobs:
         uses: gradle/gradle-build-action@v2
         with:
           arguments: check
-          gradle-version: 7.1
+          gradle-version: 8.0.2
 
