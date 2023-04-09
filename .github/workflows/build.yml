@@ -27,8 +27,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    #runs-on: ubuntu-22.04
-    runs-on: macos-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
 
