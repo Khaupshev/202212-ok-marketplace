@@ -15,4 +15,4 @@
     1. [Схема инфраструктуры](./docs/02-devops/01-infrastruture.md)
     2. [Схема мониторинга](./docs/02-devops/02-monitoring.md)
 3. Архитектура
-    3. [Описание API](./docs/04-architecture/03-api.md)
+   1. [Описание API](./docs/04-architecture/03-api.md)
